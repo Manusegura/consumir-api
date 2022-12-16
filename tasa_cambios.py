@@ -1,6 +1,6 @@
 import requests
+from config import apiKey
 
-apiKey = '6F93A481-A159-4B38-B143-0051FF10CA11'
 moneda_cripto = input("Ingrese una criptomoneda conocida:").upper()
      
 while moneda_cripto != "" and moneda_cripto.isalpha():
